@@ -15,16 +15,4 @@ public class HomeController {
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		return new ModelAndView("home");
 	}
-	@RequestMapping(value="/java")
-	public String viewJava() {
-		return "java";
-	}
-	@RequestMapping(value="/python")
-	public String viewPython() {
-		return "python";
-	}
-	@RequestMapping(value="/spring")
-	public String viewSpring() {
-		return "spring";
-	}
 }
